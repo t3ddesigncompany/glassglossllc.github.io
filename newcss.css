@@ -1,0 +1,574 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Sep 20, 2022, 1:16:47 AM
+    Author     : Zeus
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+p {
+  font-weight: 700;  
+}
+
+
+
+
+#dentro-header{
+     height: 600px;
+     background-image: url("archivos/IMG_20220922_223732.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    background-color:  rgba(0,0,0, 0.200);
+    
+    justify-content: space-between;
+}
+.nav h2{
+     font-size: 30px;
+    font-family: 'Arial';
+    font-weight: 600;
+    color: #b4764f;
+    margin-left: 60px;
+    padding-top: 10px;
+}
+.lista{
+   display: flex; 
+   margin-right: 60px;
+   padding-top: 17px;
+}
+a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Arial';
+    font-weight: 600;
+    padding: 7px;
+    color: #b4764f;
+}
+
+.amburgesa{
+     color:  #b4764f;
+        font-size: 30px;
+}
+summary{
+        padding-top: 6px;
+         list-style-type: none;
+    }
+    details{
+        visibility: hidden;
+    }
+    
+    
+.textos-header{
+    text-align: left;
+    color: #b4764f;
+    padding-top: 230px;
+    mix-blend-mode: multiply;
+}
+.saludo{
+    font-size: 40px;
+    margin-left: 5%;
+}
+.empresa{
+   font-size: 70px;
+    margin-left: 4%;
+}
+.info{
+    font-weight:200;
+    max-width: 480px;
+    text-align: left;
+    margin-left: 5%;
+}
+.slogan{
+    font-size: 24px;
+    margin-left: 5%;
+    border: 1px solid  #b4764f;
+    border-radius: 20px;
+    background-color: #b4764f;
+    color: white; 
+    position: relative;
+    top: 25px;
+    left: -5px;
+}
+
+
+
+
+
+#servicios{
+    min-height:  500px;
+    background-color: #fafafa;
+    color: #b4764f;
+    display: flex;
+}
+.bloque-1{
+    padding-top: 70px;
+}
+.bloque-1 h1{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+.bloque-1 p{
+    font-size: 30px;
+    text-align: center;
+     max-width: 80%;
+    margin-left: 9.5%;
+    margin-top: 15px; 
+}
+.Contáctenos{
+    font-size: 24px;
+    margin-left: 44.5%;
+    border: 1px solid  #b4764f;
+    border-radius: 20px;
+    background-color: #b4764f;
+    color: white; 
+    position: relative;
+    top: 35px;
+     box-shadow: 0px 0px 9px 4px rgba(180, 118, 79, 0.849);   
+}
+
+
+
+
+
+
+#trabajo{
+  min-height: 650px;
+  background-color: #ffefd5;
+}
+.texto-trabajo{
+    color:  #b4764f;
+    text-align: center;
+    padding: 80px 120px;  
+}
+.texto-trabajo h1{
+    font-size: 80px;
+    font-weight: bold; 
+}
+.texto-trabajo p{
+    font-size: 30px;
+    padding: 0 200px;
+}
+.galeria{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+.imagenes{
+    width: 14.28%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+.imagenes img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+#muestras{
+    min-height: 620px; 
+}
+#muestras h1{
+    font-size: 80px;
+    font-weight: bold; 
+    color:  #b4764f;
+    text-align: center;
+    padding-top: 40px;
+}
+.diviciones{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-around;
+     padding: 30px 40px;
+} 
+.antes-despues{
+    display: flex;
+    box-shadow: 0px 0px 10px 6px rgba(180, 118, 79, 0.849); 
+    margin-right: 20px;
+}
+.img-derecha1{
+    background-image: url("archivos/20220823_110058.jpg");
+    background-position: center;
+    background-size: cover;
+   height: 340px;
+   width: 220px;
+  border-right: 5px solid #b4764f;
+}
+.img-isquierda1{
+    background-image: url("archivos/20220823_124044.jpg");
+    background-position: center;
+    background-size: cover;
+   height: 340px;
+   width: 220px;
+}
+.img-derecha2{
+    background-image: url("archivos/20220504_100248.jpg");
+    background-position: center;
+    background-size: cover;
+   height: 340px;
+   width: 220px;
+  border-right: 5px solid #b4764f;
+}
+.img-isquierda2{
+    background-image: url("archivos/20220504_120342.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+   width: 220px;
+}
+.img-derecha3{
+    background-image: url("archivos/20210625_133138.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    width: 220px;
+    border-right: 5px solid #b4764f;
+}
+.img-isquierda3{
+    background-image: url("archivos/20210625_155154.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    width: 220px;
+}
+
+
+
+
+
+
+
+#pie{
+    height: 200px;
+    background-color: #9a5833;
+    color:  white;
+    font-size: 20px;
+    text-align: center;
+}
+#pie h1{
+  text-align: center;
+  color: #fafafa;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.redes{
+    display: flex;
+    justify-content:center;
+    padding-top: 15px;
+}
+.redes img{
+    border-radius: 30px;
+}
+
+
+@media screen and (max-width:1350px){
+    .texto-trabajo p{
+    font-size: 30px;
+    padding: 0 100px;
+} 
+
+.img-derecha1{
+    height: 320px;
+    width: 190px;
+}
+.img-isquierda1{
+    height: 320px;
+    width: 190px;
+}
+.img-derecha2{
+    height: 320px;
+    width: 190px;
+}
+.img-isquierda2{
+    height: 320px;
+    width: 190px;
+}
+.img-derecha3{
+    height: 320px;
+    width: 190px;
+}
+.img-isquierda3{
+    height: 320px;
+    width: 190px;
+}
+
+}
+
+
+@media screen and (max-width:1296px){
+  
+    .antes-despues{
+        margin-top: 20px;
+    }
+    .diviciones{
+        padding-top: 5px;
+    } 
+      .texto-trabajo p{
+    font-size: 30px;
+    padding: 0 20px;
+} 
+   
+}
+
+@media screen and (max-width:1140px){
+       .texto-trabajo p{
+    font-size: 30px;
+    padding: 0 0;
+} 
+     .bloque-1{
+        padding-top: 40px;
+    } 
+    .texto-trabajo{
+        padding-top: 90px;
+    }
+   .texto-trabajo h1{
+        font-size: 70px;
+    } 
+    #muestras h1{
+        font-size: 70px;
+    }    
+    .bloque-1 h1{
+        font-size: 70px;
+    }
+    
+}
+
+@media screen and (max-width:1001px){
+    .texto-trabajo {
+        padding-top: 70px;
+    }
+      .Contáctenos{
+        margin-left: 42%;
+    }
+}
+
+@media screen and (max-width:958px){
+   
+    .texto-trabajo{
+        padding: 90px 50px;
+    }
+     .Contáctenos{
+        margin-left: 40%;
+    }
+  
+}
+
+@media screen and (max-width:890px){
+    .bloque-1{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:1296px){
+  
+    #servicios{
+        min-height: 580px;
+    }
+   
+}
+
+@media screen and (max-width:800px){
+    .bloque-1{
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .empresa{
+        font-size: 55px;
+    }
+    .bloque-1 h1{
+        font-size: 55px;
+    }
+    .bloque-1 p{
+        font-size: 25px;
+    } 
+    #servicios{
+        min-height: 450px;
+    } 
+    .imagenes{
+        height: 150px;
+    } 
+    .texto-trabajo{
+          padding: 0 50px;
+          position: relative;
+          top: -65px;
+    } 
+    .texto-trabajo h1{
+        font-size: 55px;
+    }
+    .texto-trabajo p{
+        font-size: 25px;
+    } 
+    #trabajo{
+        min-height: 370px;
+    }
+    #muestras h1{
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:660px){
+    #servicios{
+        min-height: 450px;
+    } 
+    #dentro-header{
+        height: 450px;
+    }
+    .Contáctenos{
+          font-size: 14px;
+    }
+    .textos-header {
+        padding-top: 100px;
+    }
+     a{
+        font-size: 13px;
+    } 
+    .lista{
+        margin-right: 30px;
+    }
+    .nav h2{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:570px){
+   
+    
+    .texto-trabajo h1{
+        font-size: 45px;
+    }
+    .saludo{
+        font-size: 30px;
+    }
+    .empresa{
+        font-size: 40px;
+    }
+    .slogan{
+        font-size: 18px;
+    } 
+    .textos-header{
+        padding-top: 130px;
+    }
+    .bloque-1 h1{
+        font-size: 40px;
+    } 
+    .bloque-1 p{
+        font-size: 20px;
+        max-width: 90%;
+        margin-left: 4%;
+    }
+    .Contáctenos{
+         margin-left: 40%;
+        top: 20px;
+    } 
+    #servicios{
+        min-height: 350px;
+    }
+    .texto-trabajo h1{
+        font-size: 40px;
+    }
+    .texto-trabajo p{
+        font-size: 20px;
+    }
+    #trabajo{
+        min-height: 300px;
+    }
+    #muestras h1{
+        font-size: 40px;
+    }
+    .lista{
+        display: none;
+    }
+    details{
+        visibility: visible;
+        display: flex;
+        position: relative;
+        top: -288px;
+        margin-left: 10px;
+    }
+    .expandible{
+         background-color:  rgba(0,0,0, 0.200); 
+         height: 120px;
+         width: 120px;
+         position: relative;
+         top: 10px;
+    }
+    details a{
+        font-size: 20px;
+    }
+    .nav h2{
+        margin-left: 85%;
+    }
+    .expandible{
+        left: -10px;
+    }
+    
+    .img-derecha1{
+    background-attachment: fixed;
+}
+.img-isquierda1{
+     background-attachment: fixed;
+}
+.img-derecha2{
+    background-attachment: fixed;
+}
+.img-isquierda2{
+    background-attachment: fixed;
+}
+.img-derecha3{
+    background-attachment: fixed;
+}
+.img-isquierda3{
+    background-attachment: fixed;
+}
+}
+
+@media screen and (max-width:435px){
+    .Contáctenos{
+        margin-left: 35%;
+        top: 20px;
+    }
+    #servicios {
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width:400px){
+    details{
+        top: -335px;
+    }
+    .expandible{
+        left: -10px;
+    }
+       #servicios{
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width:383px){
+       #servicios{
+        min-height: 430px;
+    }
+}
