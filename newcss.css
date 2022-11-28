@@ -20,8 +20,9 @@ p {
   font-weight: 700;  
 }
 
-
-
+.safai p {
+  font-weight: bold;
+  }
 
 #dentro-header{
      height: 600px;
