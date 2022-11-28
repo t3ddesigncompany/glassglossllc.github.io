@@ -480,7 +480,7 @@ summary{
         margin-left: 4%;
     }
     .Contáctenos{
-         margin-left: 43%;
+         margin-left: 40%;
         top: 20px;
     } 
     #servicios{
@@ -547,7 +547,7 @@ summary{
 
 @media screen and (max-width:435px){
     .Contáctenos{
-        margin-left: 35%;
+        margin-left: 38%;
         top: 20px;
     }
     #servicios {
