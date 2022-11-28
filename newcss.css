@@ -21,7 +21,7 @@ p {
 }
 
 .webkit p {
-  font-weight: bold;
+  font-weight: 100;
   }
 
 #dentro-header{
