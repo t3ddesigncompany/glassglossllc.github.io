@@ -20,10 +20,6 @@ p {
   font-weight: 700;  
 }
 
-.webkit p {
-  font-weight: 100;
-  }
-
 #dentro-header{
      height: 600px;
      background-image: url("archivos/IMG_20220922_223732.jpg");
